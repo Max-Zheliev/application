@@ -19,7 +19,7 @@ jobs:
           git config --global user.email "maks.livs.1996@gamil.com"
           git config --global user.name "GitHub Actions Bot"
 
-     - name: Добавлен авто-коммит
+     - name: Добавлен авто-коммит 
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   run: |
